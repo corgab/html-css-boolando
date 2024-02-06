@@ -1,0 +1,80 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+/* LAYOUT */
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* HEADER */
+
+.logo {
+    width: 300px;
+}
+
+.page-header {
+	background-color: tomato;
+	color: white;
+	padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+.page-header .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    align-items: center;
+}
+
+.menu li {
+    padding: 5px;
+}
+
+/* DEBUG */
+
+
+/* BODY */
+
+.col-4 {
+	width: calc(4 * 100% / 12);
+    padding: 15px;
+}
+
+.prezzo {
+    color: red;
+}
+
+.sconto {
+    font-style: inherit;
+}
