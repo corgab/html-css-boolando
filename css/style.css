@@ -71,10 +71,57 @@ ol {
     padding: 15px;
 }
 
+.card-header {
+	position: relative;
+}
+
 .prezzo {
     color: red;
+	font-weight: bold;
 }
 
 .sconto {
-    font-style: inherit;
+	color: black;
+	text-decoration-line: line-through;
 }
+
+
+
+.heart-btn {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	background-color: white;
+	padding: 8px;
+	z-index: 2;
+}
+
+.badge {
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+}
+
+.sconto-perc {
+	background-color: red;
+	color: white;
+	padding: 3px;
+}
+
+.sostenibilita {
+	background-color: green;
+	color: white;
+	padding: 3px;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #1A1A1A;
+	color: white;
+}
+
+.page-footer {
+	padding: 30px;
+}
+
